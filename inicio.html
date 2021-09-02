@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio - Victor Andre Lee</title>
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Victor Andre Lee</h1>
+                <p>Desarrollador Web</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar"> 
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Sobre mi</a>
+                <a href="#">Mis conocimientos</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a>
+            </div>
+        </header>
+        
+        <section class="grid" id="grid">
+            <div class="item" 
+            data-categoria="sobre mi" 
+            data-etiquetas="victor andre lee " 
+            data-descripcion="1.- lorem">
+
+                <div class="item-contenido">
+                    <img src="img/yo.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="item" 
+            data-categoria="mis conocimientos" 
+            data-etiquetas="html HTML Html" 
+            data-descripcion="1.- lorem">
+
+                <div class="item-contenido">
+                    <img src="img/html.png" alt="">
+                </div>
+
+            </div>
+            <div class="item" 
+            data-categoria="mis conocimientos" 
+            data-etiquetas="css CSS Css" 
+            data-descripcion="2.- lorem">
+
+                <div class="item-contenido">
+                    <img src="img/css.png" alt="">
+                </div>
+
+            </div>
+            
+            <div class="item" 
+            data-categoria="mis conocimientos" 
+            data-etiquetas="js JS Js" 
+            data-descripcion="5.- lorem">
+                <div class="item-contenido">
+                    <img src="img/js.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="mis conocimientos" 
+            data-etiquetas="nodejs Nodejs NODEJS nodeJS" 
+            data-descripcion="4.- lorem">
+
+                <div class="item-contenido">
+                    <img src="img/nodejs.png" alt="">
+                </div>
+
+            </div>
+            <div class="item" 
+            data-categoria="" 
+            data-etiquetas="" 
+            data-descripcion="5.- lorem">
+                <div class="item-contenido">
+                    <img src="img/img5.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="" 
+            data-etiquetas="" 
+            data-descripcion="5.- lorem">
+                <div class="item-contenido">
+                    <img src="img/img3.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup" class="boton">x</button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+
+        <footer class="contenedor">   
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://www.facebook.com/Tlsny1/" target="_blank" class="facebook">
+                        <img src="img/face.png" alt="60%" height="60px">
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.youtube.com/" target="_blank" class="youtube">
+                        <img src="img/you.png" alt="60%" height="60px">
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.facebook.com/Tlsny1/" target="_blank" class="facebook">
+                        <img src="img/face.png" alt="60%" height="60px">
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+            <p>Sitio diseñado por <a href="#">Victor Andre Lee</a> - <a href="https://www.youtube.com/">Youtube</a></p>
+            </div>
+        </footer>
+
+    </div>  
+
+      <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+      <script src="main.js"></script>
+
+</body>
+</html>
